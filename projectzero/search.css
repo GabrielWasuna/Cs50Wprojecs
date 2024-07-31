@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9;
+
+}
+body{
+   
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    
+    justify-content: space-between;
+    border-bottom: 4px rgba(14, 13, 13, 0.349);
+}
+li a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: black;
+
+    
+} 
+
+
+ul{
+    display: flex;
+    list-style: none;/*toa buletpoints */
+    text-decoration: none;
+    color: black;
+    
+  
+    
+}
+img:hover {
+    box-shadow: 0 1px 2px 1px rgba(75, 72, 72, 0.5);
+    border-radius: 50px;
+
+}
+.wrapper{
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+
+    width: 600px;
+    height: 60vh;
+ 
+  margin: auto;
+  text-align: center;
+  position: relative;
+  border-radius: 50px;
+  align-items: center;
+  
+}
+.indexform{
+    position: relative;
+
+}
+.search{
+    width: 500px;
+    height: 28px;
+    
+    border-radius: 45px;
+    padding-left: 20px;
+    margin: 20px;
+    border: 1px solid lightgrey;
+
+
+}
+.search:hover {
+    box-shadow: 0 1px 2px 1px rgba(201,201,201,0.5);
+}
+.search:focus{
+    outline: none;
+}
+/* .mag{
+    position: absolute;
+    width: 15px;
+    
+
+}*/
+.indexbtn{
+   
+    cursor: pointer;
+    padding: 10px 14px;
+   
+}
+.panel1{
+    position: relative;
+    margin-bottom: 2px;
+    
+  
+}
+.panel2{
+    display: flex;
+    flex-direction: row;
+    
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0;
+ 
+    
+    justify-content: space-between;
+}
+
+
+.advance_search{
+    
+    margin-top: 40px;
+    display: table;
+}
+.advance{
+    display: table-row;
+}
+label{
+    display: table-cell;
+}
+.textinput{
+    display: table-cell;
+    width: 450px;
+}
